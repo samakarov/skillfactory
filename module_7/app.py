@@ -66,7 +66,7 @@ def main():
 
 
     #Загружаем данные
-    ratings, items  = read_files(folder_name='./data') 
+    ratings, items  = read_files(folder_name='data') 
     name_mapper, brand_mapper = make_mappers()
     item_embeddings,nms_idx = load_embeddings()
 
